@@ -42,18 +42,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 This repository contains a basic guide to set up a Flask API and Python environment. Follow these steps to get started with your project.
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [1. Clone the Repository](#1-clone-the-repository)
-  - [2. Set Up a Virtual Environment](#2-set-up-a-virtual-environment)
-  - [3. Install Dependencies](#3-install-dependencies)
-  - [4. Configure Environment Variables](#4-configure-environment-variables)
-- [Running the Flask App](#running-the-flask-app)
-- [Project Configuration](#project-configuration)
-
 ## Prerequisites
 
 Before you begin, make sure you have the following prerequisites installed on your system:
