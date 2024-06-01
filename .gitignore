@@ -43,3 +43,19 @@ logs/
 
 # Classes
 classes.json
+
+# Ignore Dockerfiles
+Dockerfile
+*.dockerfile
+Dockerfile.*
+
+# Ignore Docker Compose files
+docker-compose.yml
+docker-compose*.yml
+
+# Ignore all YAML files
+*.yml
+*.yaml
+
+# Ignore all configuration files
+*.conf

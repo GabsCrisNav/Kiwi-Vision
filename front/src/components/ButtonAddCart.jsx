@@ -9,6 +9,7 @@ import React, { useState } from 'react';
 import useSound from 'use-sound';
 
 const ButtonAddCart = ({ onOptionSelect }) => {
+    const url_send = 'http://localhost:8000/predict'
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     const [isLoading, setLoading] = useState(true);
@@ -35,7 +36,7 @@ const ButtonAddCart = ({ onOptionSelect }) => {
         formData.append('file', selectedFile)
 
         try {
-            const response = await fetch('http://localhos/api/predict', {
+            const response = await fetch(url_send, {
               method: 'POST',
               body: formData
             });
@@ -44,9 +45,7 @@ const ButtonAddCart = ({ onOptionSelect }) => {
                 throw new Error('Network response problem :c')
             }
             
-
         const data = await response.json();
-        console.log('Ya se subio mijo XD', data);
         setapiResponse(data);
         } catch(error){
             console.error('Error :c intende de nuevo')

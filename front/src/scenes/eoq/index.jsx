@@ -27,7 +27,6 @@ const Dashboard = () => {
     const handleOptionSelect = (option) => {
         setSelectedOption(option);
         // Use the selected option value in your logic
-        console.log('Selected option:', option);
         // You can also perform any other actions or updates based on the selected option
     };
 
